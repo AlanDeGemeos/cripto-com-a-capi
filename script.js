@@ -46,6 +46,14 @@ var L = [
         tip: "Quando o saldo crescer, vale ter uma carteira de hardware (Ledger ou Trezor). A Rabby funciona com elas."
     },
     {
+        e: "🔐", bg: "#D5F0C8", t: "Carteira de hardware", say: "O cofre que fica longe da internet.",
+        lead: "É um aparelho pequeno, parecido com um pendrive, que guarda a chave do seu dinheiro offline. Mesmo que o computador tenha vírus, o hacker não consegue pegar suas moedas.",
+        steps: ["Só vale a pena quando o valor guardado for maior que o preço do aparelho. Para poucos reais, a Rabby sozinha já serve.", "Compre só no site oficial do fabricante. Nunca compre usado, nem de revendedor desconhecido.", "Ao ligar, crie uma carteira nova no próprio aparelho. Se ele já vier com palavras anotadas ou a caixa estiver aberta, devolva.", "Anote no papel as palavras que o aparelho mostrar (12 ou 24), na ordem. Faça duas cópias e guarde em lugares diferentes.", "Na Rabby, vá em adicionar endereço, escolha “carteira de hardware” e conecte o aparelho pelo cabo USB.", "Faça um teste pequeno. Para enviar dinheiro, você sempre confirma apertando um botão no aparelho. Confira o endereço e o valor na tela dele.", "Deu certo? Aí mande o resto da corretora para o endereço dessa carteira."],
+        warn: "Golpistas mandam e-mails dizendo que seu aparelho foi hackeado e pedem as palavras para “resolver”. É mentira. O fabricante nunca pede suas palavras.",
+        links: [["Ledger", "https://www.ledger.com", "Site oficial do fabricante"], ["Trezor", "https://trezor.io", "Site oficial do fabricante"]],
+        tip: "As palavras de recuperação são a única cópia da sua carteira. Se o aparelho quebrar, elas trazem tudo de volta."
+    },
+    {
         e: "🧾", bg: "#BFE9F5", t: "Imposto de renda", say: "Última parada: ficar em dia com o Leão.",
         lead: "Cripto é legal, mas precisa aparecer na declaração. As regras mudam, então confirme os valores no site da Receita.",
         steps: ["Guarde o histórico: data, valor em reais e onde comprou. Prints e extratos servem.", "Se você tinha R$ 5 mil ou mais em uma mesma moeda, declare em “Bens e Direitos”, mesmo na Rabby.", "Vendas de até R$ 35 mil por mês em corretora brasileira costumam ser isentas de imposto, mas ainda devem ser informadas.", "Corretoras no exterior não têm essa isenção. Se for usar uma, procure ajuda de um contador."],
